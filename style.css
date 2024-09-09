@@ -274,7 +274,7 @@ header div{
     background-repeat: no-repeat;
 }
 
-/* sector 2 e 3*/
+/* sector 2-3-4*/
 #h1-sec2-3-4{
     font-size: 2rem;
     margin: 1.5rem;
@@ -285,6 +285,54 @@ header div{
     margin-left: 1.5rem;
     line-height: 1.5rem;
 }
+
+
+
+/* sector 5*/
+
+#h1-touch{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 2rem;
+    font-size: 2rem;
+}
+
+#p-touch{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 1.5rem;
+    line-height: 1.5rem;
+}
+
+#h3-adventure{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 2rem;
+    line-height: 2rem;
+    background-image: url(./img/stars.svg);
+    background-position: center;
+    background-size: contain;
+}
+
+#div-download-sec5{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+#button-download-sec5{
+    background-color: #8ea1e1;
+    color: rgb(255, 255, 255);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-decoration: none;
+    border: 1px solid #8ea1e1;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+
 
 
 /* #endregion main complete*/
