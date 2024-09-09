@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .flex-container{
@@ -22,13 +23,13 @@ img {
     border: 1px dashed;
 }
 
-.debug header {
+/* .debug header {
     background-color: lightblue;
-}
+} */
 
-.debug header div {
+/* .debug header div {
     background-color: orange;
-}
+} */
 
 .debug #bg-sec1{
     background-color: blue;
@@ -119,6 +120,7 @@ img {
 /* #region header*/
 header{
     padding: 0.5rem;
+    background-color: #3161e0;
 }
 
 header div{
@@ -126,18 +128,45 @@ header div{
 }
 
 #logo{
-    text-align: start;
-    width: 10%;
+    width: 20%;
 }
 
-#link{
+.flex-container-logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.link{
     text-align: center;
-    width: 40%;
+    color: white;
+    margin: auto;
+    text-decoration: none;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-weight:bold;
 }
 
 #login{
-    text-align: end;
-    width: 10%;
+    width: 20%;
+}
+
+.flex-container-login{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.item-login{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-decoration: none;
+    border: 1px solid white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 1rem;
 }
 /* #endregion header*/
 
