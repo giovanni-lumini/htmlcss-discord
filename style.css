@@ -171,12 +171,10 @@ header div{
 /* #endregion header*/
 
 /* #region main*/
-#bg-sec1{
-    padding: 1rem;
-}
 
 #item-sec1{
-    width: 50%;  
+    width: 50%;
+    padding: 3rem;
 }
 
 #bg-sec2{
@@ -211,6 +209,67 @@ header div{
     width: 60%;  
 }
 /* #endregion main*/
+
+
+
+/* #region main complete*/
+
+
+/* #endregion main complete*/
+#h1-speak{
+    color: white;
+    text-align: center;
+    margin: 2rem;
+    font-size: 2rem;
+}
+
+#p-speak{
+    color: white;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    line-height: 1.5rem;
+}
+
+#div-speak{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+#button-download{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-decoration: none;
+    border: 1px solid white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+#button-open{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-decoration: none;
+    border: 1px solid rgb(0, 0, 0);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+#bg-sec1{
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
 
 /* #region footer*/
 #bg-foot1{
