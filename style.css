@@ -217,10 +217,7 @@ header div{
 }
 /* #endregion main*/
 
-
-
-
-/* #region main complete*/
+/* #region main details*/
 /* sector 1 */
 #h1-speak{
     color: white;
@@ -286,10 +283,7 @@ header div{
     line-height: 1.5rem;
 }
 
-
-
 /* sector 5*/
-
 #h1-touch{
     color: rgb(0, 0, 0);
     text-align: center;
@@ -331,41 +325,29 @@ header div{
     border-radius: 1rem;
     margin: 1rem;
 }
-
-
-
-
-/* #endregion main complete*/
-
-
-
-
-
+/* #endregion main details*/
 
 /* #region footer*/
 #bg-foot1{
-    padding-top: 0.2rem;
-    padding-bottom: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #23272a;
 }
 
 #item1-foot1{
     width: 20%;
+    padding: 2rem;
 }
 
-#item2-foot1{
+.items-foot1{
     width: 10%;
-}
-
-#item3-foot1{
-    width: 10%;
-}
-
-#item4-foot1{
-    width: 10%;
-}
-
-#item5-foot1{
-    width: 10%;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    line-height: 1.5rem;
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: white;
 }
 
 #bg-foot2{
@@ -391,3 +373,38 @@ header div{
     background-color: pink;
 }
 /* #endregion footer*/
+
+
+
+
+/* #region footer details*/
+#h3-place-talk{
+    color: #7187d8;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#logo-ita-foot{
+    height: 0.7rem;
+}
+
+#div-place-talk{
+    line-height: 1rem;
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 0.7rem;
+}
+
+.title-items-foot1{
+    color: #7187d8;
+}
+
+
+
+
+
+
+
+
+
+/* #endregion footer details*/
